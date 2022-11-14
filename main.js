@@ -5,16 +5,39 @@ function update()
 {
     i++;
     var numbers_of_family_member_in_array = 5
-    if(i > numbers_of_family_member_in_array)
+    if(i <= numbers_of_family_member_in_array)
       {
           i = 0;
-      }
+      
     
     //Debug the code to store list of images in updatedImage. Use images[i]
-    var updatedImage = [images];
-    //Debug the code to store list of names in updatedName. Use names[i]
-    var updatedName = [names] ;
  
+    var updatedImage = ["https://i.postimg.cc/qqyYvVbq/grandpa.jpggrandpa.jpg"];
+    //Debug the code to store list of names in updatedName. Use names[i]
+    var updatedName = ["Ranbir Singh"] ;
+   
+
+    var updatedImage = ["https://i.postimg.cc/wjMnFtMX/father.jpg"];
+    //Debug the code to store list of names in updatedName. Use names[i]
+    var updatedName = ["Diljeet Singh"] ;
+    
+
+    var updatedImage = ["https://i.postimg.cc/5ymDKL83/bro.jpg"];
+    //Debug the code to store list of names in updatedName. Use names[i]
+var names = ["Diljeet Singh"];
+
+
+var updatedImage = ["https://i.postimg.cc/JnL6wtrd/sister.jpg"];
+//Debug the code to store list of names in updatedName. Use names[i]
+var names = ["Alia Singh"];
+
+
+var updatedImage = ["https://i.postimg.cc/bw5W5zSK/mother.jpg"];
+//Debug the code to store list of names in updatedName. Use names[i]
+var names = ["Soni Singh"];
+
+
     document.getElementById("family_member_image").src = updatedImage;
     document.getElementById("family_member_name").innerHTML = updatedName;
-}
+  }
+    }
